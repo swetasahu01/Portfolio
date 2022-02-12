@@ -1,0 +1,404 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik+Mono+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bevan&family=Montserrat&family=Rubik+Mono+One&display=swap");
+.navbar {
+  width: 20%;
+  background-color: rgb(22, 21, 21);
+  text-align: center;
+  height: 750px;
+  position: fixed;
+}
+.navbar li {
+  margin-bottom: 30px;
+  display: flex;
+  font-weight: normal;
+  font-size: large;
+  font-style: normal;
+  margin-left: 70px;
+}
+.navbar li a {
+  color: whitesmoke;
+  text-decoration: none;
+  text-align: center;
+}
+.navbar li a:hover{
+color: rgb(17, 243, 168);
+
+}
+.photo img {
+  border-radius: 100%;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.name {
+  margin-top: 10px;
+  margin-bottom: 60px;
+  color: #c2c2c1;
+  font-weight: bolder;
+  font-size: xx-large;
+  font-weight: 900;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.main {
+  width: 80%;
+  background-image: url("background.jpg");
+  background-size: 1200px;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  backdrop-filter: blur(5px);
+  text-align: center;
+  font-weight: bolder;
+  font-size: 90px;
+  font-family: "Montserrat", sans-serif;
+  color: #fbe8cf;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.551);
+  margin-left: 20%;
+  height: 750px;
+}
+.intro {
+  font-size: 60px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  color: rgb(235, 234, 236);
+  margin-top: 0%;
+  text-align: center;
+}
+.container {
+  display: flex;
+}
+.download:hover {
+  color: darkgoldenrod;
+}
+.hire:hover {
+  color: darkgoldenrod;
+}
+button {
+  color: rgb(224, 210, 210);
+  background-color: transparent;
+  margin-right: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  border-width: 10%;
+  border-radius: 8px;
+}
+.welcome {
+  margin-top: 80px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.aboutcontainer {
+  display: flex;
+}
+.about {
+  margin-left: 20%;
+  background-size: cover;
+  width: 40%;
+  height: 600px;
+  background-image: url("abtbg.webp");
+  background-repeat: no-repeat;
+  background-color: #1b1212;
+}
+.skills {
+  background-size: cover;
+  height: 600px;
+  width: 40%;
+  background-image: url("abtbg.webp");
+  background-repeat: no-repeat;
+  font-size: 20px;
+  color: #fbe8cf;
+  font-style: normal;
+  font-weight: bolder;
+  text-align: center;
+  background-color: #1b1212;
+}
+nav {
+  display: flex;
+  font-size: 50px;
+  margin-left: 20%;
+  margin-top: 0px;
+  list-style-type: none;
+}
+nav li {
+  margin-right: 70px;
+  border-right: 2px black;
+  text-align: center;
+}
+.servicescontainer {
+  display: flex;
+  margin-left: 20%;
+  height: 650px;
+  margin-top: 0%;
+  background-image: url("servicepg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  background-color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+}
+.contactcontainer {
+  display: flex;
+  margin-left: 20%;
+  background-color: rgba(0, 0, 0, 0.415);
+  height: 550px;
+}
+.about h1 {
+  text-align: center;
+  font-size: 100px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 0%;
+  color: #fffacd;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.about h3 {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 30px;
+  color: rgb(237, 243, 231);
+}
+.about p {
+  text-align: center;
+  text-decoration-color: whitesmoke;
+  color: whitesmoke;
+  font-family: serif;
+}
+.web {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgb(233, 228, 228);
+}
+.sk {
+  margin-top: 269px;
+  color: azure;
+  font-size: xx-large;
+}
+.design {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgb(233, 228, 228);
+}
+.contentwriting {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgb(233, 228, 228);
+}
+.editing {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgb(233, 228, 228);
+}
+.achievements {
+  color: whitesmoke;
+  margin-bottom: 0%;
+}
+.services {
+  margin-top: 0ch;
+  margin-bottom: 0ch;
+  text-align: center;
+}
+.services h1 {
+  text-align: center;
+  font-size: 100px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 0%;
+  color: #fffacd;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.webdesign {
+  color: whitesmoke;
+  margin-top: 300px;
+  border-radius: 20px;
+  background-color: rgba(62, 47, 47, 0.564);
+  height: fit-content;
+  font-size: large;
+}
+.graphicdesign {
+  color: whitesmoke;
+  margin-top: 100px;
+  border-radius: 20px;
+  background-color: rgba(62, 47, 47, 0.564);
+  height: fit-content;
+  font-size: large;
+}
+.development {
+  color: whitesmoke;
+  margin-top: 250px;
+  border-radius: 20px;
+  background-color: rgba(62, 47, 47, 0.564);
+  height: fit-content;
+  font-size: large;
+}
+.videoediting {
+  color: rgb(255, 254, 254);
+  margin-top: 150px;
+  border-radius: 20px;
+  background-color: rgba(62, 47, 47, 0.564);
+  height: fit-content;
+  font-size: large;
+}
+.portfoliocontainer {
+  display: flex;
+  margin-left: 20%;
+}
+body {
+  background-image: url("bodypg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img1 {
+  margin-top: 100px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+#portfolio {
+  text-align: center;
+  font-size: 100px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 0%;
+  color: #fffacd;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.img2 {
+  margin-top: 250px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.img3 {
+  margin-top: 400px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.img6 {
+  margin-top: 100px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.img5 {
+  margin-top: 250px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.blogcontainer {
+  display: flex;
+  margin-left: 20%;
+}
+#blog {
+  text-align: center;
+  font-size: 100px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 0%;
+  color: #fffacd;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.wordpress {
+  color: whitesmoke;
+  margin-top: 250px;
+  border-radius: 20px;
+  background-color: rgba(118, 114, 114, 0.381);
+  height: fit-content;
+  font-size: large;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+.lifestyle {
+  color: whitesmoke;
+  margin-top: 80px;
+  border-radius: 20px;
+  background-color: rgba(118, 114, 114, 0.381);
+  height: fit-content;
+  font-size: large;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+.activities {
+  color: whitesmoke;
+  margin-top: 150px;
+  border-radius: 20px;
+  background-color: rgba(118, 114, 114, 0.381);
+  height: fit-content;
+  font-size: large;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+#contact {
+  text-align: center;
+  font-size: 100px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 0%;
+  color: #fffacd;
+  margin-left: 20px;
+  margin-top: 40px; 
+}
+.contact{
+  margin-right: 20%;
+  margin-left: 5%; 
+  font-size:large;
+  color: rgb(255, 180, 180);
+  margin-top: 15%;
+}
+.form{
+  font-size: large;
+  font-weight: bolder;
+  font-size: larger;
+  color: rgb(255, 180, 180);
+  font-weight: bolder;
+  margin-top: 20%;
+  margin-left: 20%;
+}
+.send{
+  background-color: transparent;
+  border-radius: 20px;
+  color: rgb(255, 180, 180);
+  font-size: medium;
+  margin-left: 40%;
+}
+.send:hover{
+  color: aquamarine;
+}
+footer{
+  text-align: center;
+  font-size: small;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+.form input{
+  background: none;
+  border-radius: 20px;
+  border-color: #655656;
+}
+.form textarea{
+  background: none;
+  border-radius: 40px;
+  border-color: #655656;
+}
+.blogcontainer a{
+  color: bisque;
+}
